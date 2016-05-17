@@ -1,0 +1,22 @@
+#+TITLE:Building a Web Application: Ground up to the cloud
+#+Author:Namratha Deepthi
+#+Date:[2016-05-17 Wed]
+* Introduction
+** What is a Web Application?
+A web application runs continously on a web server and allows clients
+to interact from their browser on the client side.The web app
+interacts with a database.The various phases
+in developing a web application are listed below.
+* Requirements Gathering
+  This is the first and important phase of the software development
+  life cycle. The requirements are identified by listening to the client.
+* Design of data model
+  Data model is a collection of sets and relations of data that is
+  modelled according to the requirements.
+* Coding
+  The actual implementation is done here using a programming language.
+* Deployment
+* Testing
+  Unit test cases are developed and the application is tested to
+  ensure that it is free of bugs.
+* Integration
