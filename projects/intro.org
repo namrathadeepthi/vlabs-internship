@@ -5,18 +5,52 @@
 ** What is a Web Application?
 A web application runs continously on a web server and allows clients
 to interact from their browser on the client side.The web app
-interacts with a database.The various phases
-in developing a web application are listed below.
+interacts with a database.
+- [[./web-app-development.jpg][image]]
+The various phases in developing a web application are listed below.
+
+
 * Requirements Gathering
   This is the first and important phase of the software development
-  life cycle. The requirements are identified by listening to the client.
+  life cycle. The requirements are identified by listening to the
+  client and further questions can be raised to clarify the
+  requirements.
+  Example: The requirements for a email-directory:
+           The roles are identified as admin and a user.
+           Each user has an email.
+           No two users share the same email.
+           Admin can create or delete users other than himself.
+           Usr can view and update his details.           
+           Futher requirements can be clarified -- eg: There can be
+           more than one admin. A user can log using more than one session.
 * Design of data model
-  Data model is a collection of sets and relations of data that is
-  modelled according to the requirements.
+  Data model is an abstract model, a collection of sets and relations of data that is
+  formulated according to the requirements.A set is a collection of
+  things and a relation is a mapping from one set to another.A
+  relation from set A to B can be represented as r: A > B and its
+  inverse: B>A  { (b,a) | bEB, aEA AND r(a,b) }
+  ( A system consists of states and evolves over time)A system can be
+  modelled as entities and relationships.Every relation can
+  be represented as a table.For eg for the email-directory web app
+  mentioned above:
+     email:      User > Email! (Every user has exactly one email)
+     name:       User > Name!  (Each user has exactly one name)
+     role:       User > Role!  (Each user has exactly one role)
+     user:       Session > User!(Each session belongs to one user)
+  A data model consists of type-structure(entities and relationships)
+  and state structure.
+  
 * Coding
   The actual implementation is done here using a programming language.
 * Deployment
+  -
 * Testing
   Unit test cases are developed and the application is tested to
   ensure that it is free of bugs.
 * Integration
+* List of Technologies
+  - [[https://www.python.org][Python]] :: Python will be the main language of implementation in this project.  The version needed is 2.7 (not 3.x).
+  - [[https://github.com][git]]    :: Distributed version control system.
+  - [[http://flask.pocoo.org/][Flask]] :: Flask is a framework for web development.  You will need to use version 0.10.1.
+  - [[https://www.javascript.com/][javascript]]
+  
