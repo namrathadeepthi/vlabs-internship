@@ -38,6 +38,13 @@
      We completed writing the various operations of system class and a few test
      cases.                            
      
+** [2016-05-23 Mon]
+    + Task assigned today:
+      We had to start working on the Object Relational Model.
+    + What did I get done against each task?
+      In the process we learnt about SQLALCHEMY, flask and the other
+      dependencies needed to work with the ORM. The User class and Role class
+      were redefined to now include persistance.   
 
 ** Weekly  Summary
    + What are the insights gained?
