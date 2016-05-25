@@ -45,6 +45,12 @@
       In the process we learnt about SQLALCHEMY, flask and the other
       dependencies needed to work with the ORM. The User class and Role class
       were redefined to now include persistance.   
+** [2016-05-25 Wed]
+    + Task assigned today:
+      We had to finish the REST API .
+    + What did I get done against each task?
+      Learnt about Flask and REST API architecture.We implemented the REST API
+      structure for the user-directory .   
 
 ** Weekly  Summary
    + What are the insights gained?
