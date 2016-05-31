@@ -57,10 +57,29 @@
     + What did I get done against each task?
       Understood how exactly the System works ( ie. in the REST API all the calls have be done using System object only) .
       We completed the test cases.
+** [2016-05-27 Fri]
+    + Task assigned today:
+      Understand how the front end of the app works.
+    + What did I get done against each task?
+      Sripathi sir explained the MVC framework of angular js and we understood how to implement the front end for our app.
       
 ** Weekly  Summary
    + What are the insights gained?
    + What is my footprint in the realization of the project?
+   
+** [2016-05-30 Mon]
+    + Task assigned today:
+      To start working on the front end.
+    + What did I get done against each task?
+      We worked with view user and get users part but got stuck with errors(cache wasnt getting cleared). Couldn't figure them
+      out.
+      
+** [2016-05-31 Tue]
+    + Task assigned today:
+      Finish front end.
+    + What did I get done against each task?
+      The errors we faced yesterday were debugged and we implemented add user and edit user today.
+      
 
 * Month of June
 * Month of July
