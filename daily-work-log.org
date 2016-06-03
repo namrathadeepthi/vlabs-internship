@@ -82,10 +82,16 @@
 
 
 * Month of June
-** [2016-06-1 Tue]
+** [2016-06-1 Web]
     + Task assigned today:
       Finish front end.
     + What did I get done against each task?
       We fixed the errors like adding session variables in angular js and implemented delete user. We finished front end.
+      
+** [2016-06-2 Thurs]
+    + Task assigned today:
+      We had to do manual deployment and automatic deployment of our web application.
+    + What did I get done against each task?
+      We deplo
       
 * Month of July
