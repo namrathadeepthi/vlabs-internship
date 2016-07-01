@@ -151,5 +151,22 @@
 ** [2016-05-17 Fri]   
     What is the task I was assigned today? Today we had to formulate the datamodel for the new outreach portal.
     What did I get done against each task? We finished making modifications to our model based on the review we had on Thursday.
+
+** [2016-06-27 Mon]   
+    Work done today:  We satrted underatnding the persistence template and figured out we needed to create an association table user-roles because each user now has a set of roles. We implemented the persistence for User, Name Email and Role.
+
+** [2016-06-28 Tue]   
+    Work done today:  In the morning we had a reveiw of the data-model and requirements .There were many things that had to be changed.The tasks were divided and I modified a few things like writing a formal notation in place of plain english statements  and I added active_user set and user_status . Most of the time was spent in making the necessary changes. (Traceability has still not been included).
+
+** [2016-06-29 Wed]   
+    Work done today:  After yesterday's review there were few things which had to be edited in the part 2 of data-model ,I helped Sripati in making those changes. Then we made a relase of the outreach-portal-3.0.1 . After which we started working on persistence of entities - Institute , OC , NC , User , Name , Email and Role. There were a few modifications done in Role in object model ( oc-center and nc-center ) which we had to include in persistence and also we discussed on how spokes and hub should be stored in persstence. All the changes were incorporated and a wroking code of the persistence(entites) was written.
+     
+** [2016-06-30 Thurs]   
+    What is the task I was assigned today?  I had to update the object model to include soft delete and also implement persistence of the system.
+    What did I get done against each task? I added a new attribute to User class saying user_status ( "active or inactive") and modified the delete such that when a user is deleted he is just marked as inactive and still remains in the user-set. I wrote the working test cases for the same and changed all the operations that require this change. Then I started working on persistence and faced few import errors and few test cases that I wrote didnt run.
   
 * Month of July
+
+** [2016-07-01 Fri]   
+    What is the task I was assigned today? The few test cases that were failing yesterday had to be worked upon (in the persistence of system).
+    What did I get done against each task? Today there was a presenattion on docker afte attending that, I finished changing the operations (adduser delete user update user and update institute) to meet the persistance requirements and wrote the working test cases. But we realized tht writing the system file again in persistence would be code duplication and hence switched over to an other template wriiten by Thirumal. Using that template we need not write the code for persistance of system.
