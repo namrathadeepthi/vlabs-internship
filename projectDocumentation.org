@@ -89,4 +89,8 @@
   4)  Git version control [[https://git-scm.com/]]
 
 * Conclusion
-  
+  All in all this version of outreach-portal aims to increase efficiency in
+  terms of size of code and offer better security by providing clear
+  abstraction boundaries.
+  The idea is to build a portal which is extensible and which can
+  incorporate new requirements in future.
