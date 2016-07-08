@@ -11,11 +11,11 @@
   The concept of System had to be incorporated in the new design.
 * Methodology followed
   This portal is developed following the Software Development Life-cycle.
-  -Gathering of Requirements
-  -Development of Data-Model
-  -Implementation
-  -Testing
-  -Deployment
+  1) Gathering of Requirements
+  2) Development of Data-Model
+  3) Implementation
+  4) Testing
+  5) Deployment
    The development of this portal is done using the Agile model, where quick
    releases are made.   
 
