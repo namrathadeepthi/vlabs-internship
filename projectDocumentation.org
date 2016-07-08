@@ -83,10 +83,10 @@
   [[https://docs.google.com/drawings/d/1JfzCe7uEEk25KLSv77QFbxkjqcAWQvBCEtNJ-BfKi20/edit]]
   
 * Technologies used
-  Python 2.7 [[https://docs.python.org/2/]]
-  Flask  http://flask.pocoo.org/
-  SQL ALchemy [[http://www.sqlalchemy.org/]]
-  Git version control [[https://git-scm.com/]]
+  1)  Python 2.7 [[https://docs.python.org/2/]]
+  2)  Flask  http://flask.pocoo.org/
+  3)  SQL ALchemy [[http://www.sqlalchemy.org/]]
+  4)  Git version control [[https://git-scm.com/]]
 
 * Conclusion
   
